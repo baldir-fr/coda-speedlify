@@ -3,24 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
   workflow_dispatch:
-  schedule:
-    - cron: "7 * * * *"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout results
-        uses: actions/checkout@v4
-        with:
-          ref: refs/heads/results
-          path: results
       - name: Checkout speedlify
         uses: actions/checkout@v4
-        with:
-          path: default
-      - name: Copy existing results
-        run: cp -r results/. default/_data
       - name: Install npm dependencies
         run: npm install
         working-directory: default
