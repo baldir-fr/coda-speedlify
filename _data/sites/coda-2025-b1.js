@@ -3,7 +3,8 @@ module.exports = {
 	description: "Sites statiques Coda 2025 B1",
 	options: {
 		runs: 1,
-		frequency: 60 * 23, // 24 hours
+		frequency: 1, // 1 minute
+		// frequency: 60 * 23, // 24 hours
 		// Use "run" if the sites don’t share assets on the same origin
 		//           and we can reset chrome with each run instead of
 		//           each site in every run (it’s faster)
