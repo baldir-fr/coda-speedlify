@@ -1,3 +1,11 @@
+# Coda Speedlify
+
+Cet outil scanne les sites qui lui sont paramétrés dans `_data/sites/*.js`.
+Il vérifie des score de performances, SEO, best practices et accessibilité grâce à Lighthouse.
+
+> Note : l'accessibilité ne peut jamais être testée complètement automatiquement.
+> Les tests utilisateur sont indispensables pour vérifier convenablement l'accessibilité
+
 # speedlify
 
 After you make a fast web site, keep it fast by measuring it over time. Read [Use Speedlify to Continuously Measure Site Performance](https://www.zachleat.com/web/speedlify/). Created by [@zachleat](https://www.zachleat.com/).
