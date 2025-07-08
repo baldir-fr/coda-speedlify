@@ -9,9 +9,11 @@ module.exports = {
 		//           and we can reset chrome with each run instead of
 		//           each site in every run (it’s faster)
 		// Use "site" if sites are all on the same origin and share assets.
-		freshChrome: "site"
+		freshChrome: "run"
 	},
 	urls: [
-		"https://baldir-fr.github.io/ma-page/"
+		"https://baldir-fr.github.io/ma-page/",
+		"https://bc.baldir.fr/",
+		"https://u.baldir.fr/"
 	]
 };
