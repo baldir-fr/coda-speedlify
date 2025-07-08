@@ -1,0 +1,65 @@
+{
+  "url": "https://baldir-fr.github.io/ma-page/",
+  "requestedUrl": "https://baldir-fr.github.io/ma-page/",
+  "timestamp": 1751987748018,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "12.7.1",
+    "performance": 1,
+    "accessibility": 0.83,
+    "bestPractices": 0.96,
+    "seo": 0.9,
+    "total": 369
+  },
+  "firstContentfulPaint": 819.461,
+  "speedIndex": 819.461,
+  "largestContentfulPaint": 819.461,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 819.461,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 128.935,
+  "weight": {
+    "summary": "4 requests • 6.2 KiB",
+    "total": 6302,
+    "image": 0,
+    "imageCount": 0,
+    "script": 215,
+    "scriptCount": 1,
+    "document": 671,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 122,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 1,
+    "-weight.document": 1,
+    "+weight.document": 1,
+    "-weight.script": 1,
+    "+weight.script": 1,
+    "-weight.image": 1,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
