@@ -12,16 +12,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Install npm dependencies
         run: npm install
-        working-directory: default
       - name: Build speedlify
         run: |
           npm run build -- --pathprefix=${GITHUB_REPOSITORY#*/}
           npm run zip-results
-        working-directory: default
       - name: Deploy to gh-pages branch
         run: |
           mkdir gh-pages
-          cp -r default/_site/* gh-pages
+          cp -r _site/* gh-pages
           cd gh-pages
           ORIGIN=https://${{ github.repository_owner }}:${{ github.token }}@github.com/${{ github.repository }}.git
           git init
