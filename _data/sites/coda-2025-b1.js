@@ -14,6 +14,7 @@ module.exports = {
 	urls: [
 		"https://baldir-fr.github.io/ma-page/",
 		"https://bc.baldir.fr/",
-		"https://u.baldir.fr/"
+		"https://u.baldir.fr/",
+		"https://baldir-fr.github.io/coda-speedlify/ssg-coda-2025-b1/"
 	]
 };
