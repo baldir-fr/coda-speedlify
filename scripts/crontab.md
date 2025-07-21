@@ -7,6 +7,6 @@ crontab -e
 ```
 
 ```
-PATH=/bin:/usr/bin:/usr/local/bini:$HOME/.nvm/versions/node/v22.17.0/bin
+PATH=/bin:/usr/bin:/usr/local/bin:$HOME/.nvm/versions/node/v22.17.0/bin
 * * * * * cd $HOME/source/Ecoles/Coda/coda-speedlify && ./scripts/scan-and-publish.sh >> /tmp/speedlify.log
 ```
