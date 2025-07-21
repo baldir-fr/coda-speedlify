@@ -1,6 +1,6 @@
 module.exports = {
-	name: "SSG-Coda-2025-B1", // optional, falls back to object key
-	description: "Sites statiques Coda 2025 B1",
+	name: "Baldir", // optional, falls back to object key
+	description: "Sites d'exemple Baldir",
 	options: {
 		runs: 1,
 		frequency: 60 * 23, // 24 hours
