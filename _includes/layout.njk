@@ -15,17 +15,17 @@
 		<header>
 			<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
 			<p class="speedlify-subhed">
-				Benchmark {{ sites[vertical].description or "web pages" }} over time.
+				Analyse {{ sites[vertical].description or "web pages" }} au fil du temps.
 				{%- if sites[vertical].unordered %}
 					Les résultats de cette catégorie ne sont pas triés.
 				{%- endif %}
 				{%- if maxResults %}
-					Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
+					Mises à jours <em>au plus</em> toutes les {{ sites[vertical].options.frequency or 60 }} minutes. Seuls les {{ maxResults }} derniers lancement{% if maxResults != 1 %}s{% endif %} (et le lancement le plus ancien) sont montrés.
 				{%- endif %}
-				Created by <a href="https://www.zachleat.com/">@zachleat</a>.
+				Créé par <a href="https://www.zachleat.com/">@zachleat</a>.
 			</p>
 			<p class="speedlify-subhed">
-				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
+				<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Déployez votre propre instance de Speedlify et testez vos sites Web</a>.
 			</p>
 		</header>
 
@@ -33,7 +33,7 @@
 			{{ content | safe }}
 		</main>
 
-		<footer>
+		<footer lang="en">
 			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</footer>
 
