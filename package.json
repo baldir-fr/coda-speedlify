@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zachleat/speedlify.git"
+    "url": "git+https://github.com/baldir-fr/coda-speedlify.git"
   },
   "bugs": {
-    "url": "https://github.com/zachleat/speedlify/issues"
+    "url": "https://github.com/baldir-fr/coda-speedlify/issues"
   },
-  "homepage": "https://github.com/zachleat/speedlify#readme",
+  "homepage": "https://baldir-fr.github.io/coda-speedlify/",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^5.0.2",
