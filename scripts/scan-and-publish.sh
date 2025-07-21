@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Scan and publish Speedlify"
 npm run test-pages
 git add .
