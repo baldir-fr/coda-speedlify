@@ -1,0 +1,66 @@
+{
+  "url": "https://baldir-fr.github.io/coda-speedlify/ssg-coda-2025-b1/",
+  "requestedUrl": "https://baldir-fr.github.io/coda-speedlify/ssg-coda-2025-b1/",
+  "timestamp": 1753121443963,
+  "ranks": {
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "12.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1086.6515,
+  "speedIndex": 1086.6515,
+  "largestContentfulPaint": 1321.6515,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1321.6515,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 134.108,
+  "weight": {
+    "summary": "9 requests • 78.3 KiB",
+    "total": 80196,
+    "image": 6151,
+    "imageCount": 4,
+    "script": 48038,
+    "scriptCount": 2,
+    "document": 16234,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4394,
+    "stylesheetCount": 1,
+    "thirdParty": 6151,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 2,
+    "-weight.document": 3,
+    "+weight.document": 2,
+    "-weight.script": 1,
+    "+weight.script": 2,
+    "-weight.image": 1,
+    "+weight.image": 2,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 316,
+    "violations": 24
+  }
+}
