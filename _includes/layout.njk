@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
-		<meta name="description" content="Benchmark web pages over time.">
+		<title>Speedlify pour Coda</title>
+		<meta name="description" content="Analyse des pages web au fil du temps.">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
@@ -17,7 +17,7 @@
 			<p class="speedlify-subhed">
 				Benchmark {{ sites[vertical].description or "web pages" }} over time.
 				{%- if sites[vertical].unordered %}
-					Results for this category are unordered.
+					Les résultats de cette catégorie ne sont pas triés.
 				{%- endif %}
 				{%- if maxResults %}
 					Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
