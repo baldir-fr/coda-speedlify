@@ -1,0 +1,66 @@
+{
+  "url": "https://bc.baldir.fr/",
+  "requestedUrl": "https://bc.baldir.fr/",
+  "timestamp": 1761120619956,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "12.7.1",
+    "performance": 0.7,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 366
+  },
+  "firstContentfulPaint": 1038.8860000000002,
+  "speedIndex": 3523.6471723752784,
+  "largestContentfulPaint": 3728.4295,
+  "totalBlockingTime": 713.5,
+  "cumulativeLayoutShift": 0.002037009118032399,
+  "timeToInteractive": 6522.5257,
+  "maxPotentialFirstInputDelay": 1071,
+  "timeToFirstByte": 205.32999999999998,
+  "weight": {
+    "summary": "15 requests • 899.7 KiB",
+    "total": 921324,
+    "image": 428948,
+    "imageCount": 6,
+    "script": 433664,
+    "scriptCount": 2,
+    "document": 2006,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 26883,
+    "stylesheetCount": 2,
+    "thirdParty": 919318,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 1,
+    "-weight.document": 2,
+    "+weight.document": 2,
+    "-weight.script": 2,
+    "+weight.script": 1,
+    "-weight.image": 1,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 225,
+    "violations": 42
+  }
+}
