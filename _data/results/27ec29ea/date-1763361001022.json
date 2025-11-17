@@ -1,0 +1,20 @@
+{
+  "url": "https://u.baldir.fr/",
+  "error": "{\"name\":\"LighthouseError\",\"code\":\"PROTOCOL_TIMEOUT\",\"friendlyMessage\":\"Waiting for DevTools protocol response has exceeded the allotted time. (Method: Runtime.evaluate)\",\"lhrRuntimeError\":true,\"protocolMethod\":\"Runtime.evaluate\"}",
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 3,
+    "-weight.document": 3,
+    "+weight.document": 3,
+    "-weight.script": 3,
+    "+weight.script": 3,
+    "-weight.image": 2,
+    "+weight.image": 2,
+    "-weight.font": 1,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 3
+  }
+}
